@@ -219,6 +219,66 @@ setup_dynamic_statusline()
 ### 2.2. Cấu trúc thư mục source code
 
 ```
+src/nvim/
+├── api/
+│   ├── api.c
+│   ├── buffer.c
+│   ├── window.c
+│   ├── vim.c
+│   └── private/
+├── autocmd/
+├── diff/
+├── event/
+│   ├── loop.c
+│   ├── time.c
+│   ├── process.c
+│   ├── rstream.c
+│   └── uds.c
+├── eval/
+│   ├── eval.c
+│   ├── lua.c
+│   ├── typval.c
+│   └── vars.c
+├── f/
+├── fs/
+├── generated/
+├── highlight/
+├── json/
+├── lua/
+├── mark.c
+├── buffer.c
+├── change.c
+├── cmdexpand.c
+├── cmds.c
+├── cursor.c
+├── decorators.c
+├── diff.c
+├── drawscreen.c
+├── edit.c
+├── ex_docmd.c
+├── ex_eval.c
+├── fileio.c
+├── getchar.c
+├── main.c
+├── map.c
+├── message.c
+├── misc1.c
+├── normal.c
+├── ops.c
+├── option.c
+├── popupmenu.c
+├── quickfix.c
+├── search.c
+├── syntax.c
+├── spell.c
+├── terminal.c
+├── textformat.c
+├── ui.c
+├── undo.c
+└── window.c
+```
+
+```
 neovim/src/nvim/
 ├── ex_cmds.c          ← Implementation của Ex commands
 ├── ex_cmds.h          ← Header declarations
